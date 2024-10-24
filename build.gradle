@@ -167,3 +167,5 @@ subprojects {
         }
     }
 }
+
+task stage(dependsOn: ['build'])
